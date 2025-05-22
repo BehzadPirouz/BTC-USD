@@ -10,13 +10,11 @@ The data is downloaded using "yfinance" with the ticker "BTC-USD"
    - Buy every Wednesday at Open Price
    - Sell every Friday at Close Price
    - Initial capital: $1000
-![Fixed Strategy]
-(bitcoin_profit.png)
+![Fixed Strategy](bitcoin_profit.png)
 2. **Optimal Strategy**
    - Dynamically find the best weekday to buy and best weekday to sell
    - Simulate maximum profit scenario based on weekly prices
-![Optimal Strategy]
-(bitcoin_strategy.png)
+![Optimal Strategy](bitcoin_strategy.png)
 ## Outputs
 
 - python 3.10+
